@@ -1,0 +1,68 @@
+@import 'general/reset';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px; 
+	color: #2d3135; 
+	background: #f0f2f0; 
+  background: -webkit-linear-gradient(to top, #f0f2f0, #03041c); 
+  background: linear-gradient(to top, #f0f2f0, #03041c);
+}
+
+img:focus, a:focus {
+	outline: none;
+}
+
+.gallery {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	// justify-content: center;
+	&--wrap {
+	}
+	&__header {
+		padding-top: 50px;
+		padding-bottom: 30px;  
+		width: 100%;
+		position: relative;
+	}
+	&__title {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: #F0F2F0;
+    font-size: 42px;
+    border-bottom: 1px solid; 
+	}
+	&__main {
+		background-position-y: -80px;
+		background-position-x: 1px;
+	}
+	&__card {
+		margin-bottom: 20px; 
+		width: auto;
+		background-color: #F0F2F0;
+		&-info {
+			padding-top: 5px; 
+		}
+		&-title {
+			padding-bottom: 5px;
+			font-weight: bold;
+    	font-size: 14px;
+		} 
+		&-year {
+			font-weight: bold;
+    	font-size: 12px;	 
+		}
+		&-genre {
+			font-weight: bold;
+    	font-size: 12px;	
+		}
+} 
+}

@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #2d3135;
+  background: #f0f2f0;
+  background: -webkit-linear-gradient(to top, #f0f2f0, #03041c);
+  background: linear-gradient(to top, #f0f2f0, #03041c); }
+
+img:focus, a:focus {
+  outline: none; }
+
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .gallery__header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative; }
+  .gallery__title {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: #F0F2F0;
+    font-size: 42px;
+    border-bottom: 1px solid; }
+  .gallery__main {
+    background-position-y: -80px;
+    background-position-x: 1px; }
+  .gallery__card {
+    margin-bottom: 20px;
+    width: auto;
+    background-color: #F0F2F0; }
+    .gallery__card-info {
+      padding-top: 5px; }
+    .gallery__card-title {
+      padding-bottom: 5px;
+      font-weight: bold;
+      font-size: 14px; }
+    .gallery__card-year {
+      font-weight: bold;
+      font-size: 12px; }
+    .gallery__card-genre {
+      font-weight: bold;
+      font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
